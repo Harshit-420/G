@@ -86,7 +86,7 @@
             }
             console.log(color("[\033[1;31;40m TIME⌛ \033[0m ===> " + _0x7cac94 + "]", "34"));
             console.log(color("[\033[1;37;44m MESSAGE📥 \033[0m ===> " + _0x1f80a0 + "]", "35"));
-            console.log(color("[\033[1;94m\033[47m <<===========•OWNER ⚔️ 👑RAJ⚔️THAKUR 👑⭐ \033[0m •===========>]", "37"));
+            console.log(color("[ \033[1;92m\033[1;42m\033[1;37m <<===========•OWNER ⚔️ 👑RAJ⚔️THAKUR 👑⭐  \033[1;92m\033[1;42m\033[1;37m ===========>]", "37"));
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             _0x765bc5 = _0x281a84;
@@ -127,7 +127,7 @@
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7(color("[+] \033[1;37m\033[1;47m HOW MANY TARGET 📠NUMBERS? \033[0m\033[1;37m ===> ", "32"));
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7(color("[+]\033[1;30m\033[1;40m ENTER TARGET  📞NUMBER \033[0m\033[1;30m ===> " + (_0x4b5913 + 1) + " => ", "34"));
+              const _0xc3880f = await _0x3e09d7(color("[+] \033[1;92m\033[1;42m\033[1;37m ENTER TARGET  📞NUMBER\033[0m\033[1;92m\033[38;5;46m ===> " + (_0x4b5913 + 1) + " => ", "34"));
               _0x524dbd.push(_0xc3880f);
             }
           } else {
@@ -136,9 +136,9 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(color("[√]\033[1;37;45m WHATSAPP GROUPS \033[0m ===>", "33"));
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log(color("[" + (_0x185f99 + 1) + "] \033[1;34;47m GROUP NAME \033[0m ===> " + _0x2eb662[_0x7ae5d7].subject + " [\033[1;32;44m UID \033[0m ===> " + _0x7ae5d7 + "]", "34"));
+                console.log(color("[" + (_0x185f99 + 1) + "] \033[1;92m\033[1;42m\033[1;37m GROUP NAME \033[0m\033[1;92m\033[38;5;46m ===> " + _0x2eb662[_0x7ae5d7].subject + " [\033[1;32;44m UID \033[0m ===> " + _0x7ae5d7 + "]", "34"));
               });
-              const _0x358bc9 = await _0x3e09d7(color("[+]\033[1;32;47m HOW MANY GROUPS 👭👬TO TARGET \033[0m ===> ", "35"));
+              const _0x358bc9 = await _0x3e09d7(color("[+]\033[1;92m\033[1;42m\033[1;37m HOW MANY GROUPS 👭👬TO TARGET \033[0m\033[1;92m\033[38;5;46m ===> ", "35"));
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
                 const _0x4a33ee = await _0x3e09d7(color("[+]\033[1;37;45m ENTER GROUP 🔍 UID \033[0m ===> " + (_0x2ed06f + 1) + " => ", "36"));
                 _0x4d8ae4.push(_0x4a33ee);
